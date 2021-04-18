@@ -1,12 +1,8 @@
 <h1>These are all articles</h1>
 
 <ul>
-  <% @articles.each do |article| %>
-    <li>
-      <%= article.title %>
-      <%= link_to "show me more", article %>
-    </li>
-  <% end %>
+
+<%= render "index" %>
 </ul>
 
 
